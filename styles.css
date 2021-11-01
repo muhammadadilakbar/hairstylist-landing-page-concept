@@ -1,0 +1,471 @@
+html {
+  box-sizing: border-box;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  color: white;
+  font-family: "Lexend Deca", sans-serif;
+}
+
+.hero-section-wrapper {
+  background-color: #DFCCC2;
+}
+
+.hero-section {
+  max-width: 1440px;
+  margin: 0 auto;
+  min-height: 1332px;
+  position: relative;
+  z-index: 4;
+}
+
+.branding {
+  padding: 30px 3.4% 0;
+}
+
+.site-navigation {
+  color: white;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.site-title {
+  font-family: "Lexend Deca";
+  font-size: 32px;
+  font-weight: 400;
+  margin: 0;
+  letter-spacing: -1.2px;
+  justify-self: center;
+}
+
+.site-title > a {
+  text-decoration: none;
+}
+
+.site-title > a:visited {
+  color: white;
+}
+
+.site-navigation ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  align-self: center;
+  max-width: 395px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.site-navigation ul li {
+  display: inline-block;
+  font-family: "DM Sans";
+  font-weight: 500;
+  letter-spacing: -0.4px;
+}
+
+.site-navigation ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+a.book-appt {
+  text-decoration-color: #F95454;
+  color: white;
+  text-decoration-thickness: 2px;
+  text-underline-offset: 6px;
+  justify-self: end;
+  align-self: center;
+  font-family: "DM Sans";
+  font-weight: 500;
+  letter-spacing: -0.4px;
+}
+
+.golden-hair {
+  position: absolute;
+  left: calc( (100% - 412px) / 2 );
+  top: 171px;
+}
+
+.vector-1 {
+  position: absolute;
+  left: calc( (439/1440) * 100% );
+  top: 487px;
+}
+
+.abstract-1 {
+  position: absolute;
+  left: calc( (827.36/1440) * 100% );
+  top: 94.29px;
+}
+
+.abstract-2 {
+  position: absolute;
+  left: calc( (784.29/1440) * 100% );
+  top: 493.97px;
+}
+
+.image-eye {
+  position: absolute;
+  left: calc( (875/1440) * 100% );
+  top: 179px;
+}
+
+.we-are-debo {
+  width: 399px;
+  position: absolute;
+  left: calc( (243/1440) * 100% );
+  top: 222px;
+  font-family: "Lexend Deca";
+  font-size: 36px;
+  letter-spacing: -1.5px;
+  color: white;
+}
+
+.debo-is-natural {
+  width: 194px;
+  position: absolute;
+  left: calc( (976/1440) * 100% );
+  top: 452px;
+  font-family: "DM Sans";
+  color: #6E645F;
+}
+
+.we-are-focused {
+  width: 387px;
+  position: absolute;
+  left: calc( (492/1440) * 100% );
+  top: 912px;
+  z-index: 1;
+}
+
+.we-are-focused .focused {
+  font-family: "Lexend Deca";
+  font-size: 40px;
+  line-height: 48px;
+  letter-spacing: -1.5px;
+  color: #FFFFFF;
+}
+
+.we-are-focused .we-provide {
+  font-family: "DM Sans";
+  color: #6E645F;
+  padding-top: 20px;
+  line-height: 24px;
+}
+
+.vector-2 {
+  position: absolute;
+  left: 0px;
+  top: 918px;
+}
+
+.image-3 {
+  position: absolute;
+  left: calc( (100/1440) * 100% );
+  top: 767px;
+}
+
+.vector-3 {
+  position: absolute;
+  right: calc( (299/1440) * 100% );
+  top: 1012px;
+}
+
+.image-4 {
+  position: absolute;
+  right: calc( (100/1440) * 100% );
+  top: 931px;
+}
+
+.we-love-what-we-section-wrapper {
+  background-color: #C5CEBD;
+}
+
+.we-love-what-we-section {
+  max-width: 1440px;
+  margin: 0 auto;
+  position: relative;
+  min-height: 1004px;
+  z-index: 3;
+}
+
+.image-5 {
+  position: absolute;
+  left: 0px;
+  top: 150px;
+}
+
+.we-love {
+  font-family: "Lexend Deca";
+  font-size: 60px;
+  line-height: 66px;
+  letter-spacing: -2.25px;
+  color: #FFFFFF;
+  position: absolute;
+  width: 402px;
+  left: calc( (493/1440) * 100% );
+  top: 309px;
+}
+
+.cuts-tailor {
+  position: absolute;
+  width: 308px;
+  left: calc( (614/1440) * 100% );
+  top: 549px;
+  font-family: "DM Sans";
+  font-size: 16px;
+  line-height: 24px;
+  color: #6E645F;
+}
+
+.abstract-3 {
+  position: absolute;
+  left: calc( (423.64/1440) * 100% );
+  top: 688px;
+}
+
+.vector-4 {
+  position: absolute;
+  right: 0;
+  top: 271px;
+}
+
+.image-6 {
+  position: absolute;
+  right: 0px;
+  top: 364px;
+}
+
+.image-7 {
+  position: absolute;
+  right: calc( (82/1440) * 100% );
+  top: 665px;
+}
+
+.our-services-section-wrapper {
+  background-color: #DFCCC2;
+}
+
+.our-services-section {
+  max-width: 1440px;
+  margin: 0 auto;
+  position: relative;
+  min-height: 1339px;
+  z-index: 2;
+}
+
+.our-services-section .services {
+  text-align: center;
+  padding-top: 150px;
+  font-family: "Lexend Deca";
+  font-size: 40px;
+  line-height: 48px;
+  letter-spacing: -1.5px;
+  color: white;
+}
+
+.image-cut {
+  position: absolute;
+  left: calc( (293/1440) * 100% );
+  top: 304px;
+}
+
+.image-cut > .cut, .image-design > .design {
+  font-family: "Lexend Deca";
+  font-size: 30px;
+  line-height: 37px;
+  letter-spacing: -1.125px;
+  padding-top: 32px;
+}
+
+.image-color {
+  position: absolute;
+  left: calc( (633/1440) * 100% );
+  top: 449px;
+}
+
+.image-color > .color {
+  font-family: "Lexend Deca";
+  font-size: 30px;
+  line-height: 37px;
+  letter-spacing: -1.125px;
+  padding-bottom: 32px;
+}
+
+.vector-5 {
+  position: absolute;
+  left: calc( (685.55/1440) * 100% );
+  top: 925px;
+}
+
+.customized-look {
+  width: 317px;
+  position: absolute;
+  left: calc( (367/1440) * 100% );
+  top: 961px;
+  font-family: "Lexend Deca";
+  font-size: 40px;
+  line-height: 48px;
+  text-align: right;
+  letter-spacing: -1.5px;
+}
+
+a.see-our-menu {
+  padding-top: 32px;
+  display: block;
+  font-size: 1rem;
+  line-height: 21px;
+  text-decoration-color: #F95454;
+  text-decoration-thickness: 2px;
+  text-underline-offset: 6px;
+  font-family: "DM Sans";
+  font-weight: 500;
+  letter-spacing: -0.4px;
+  color: white;
+}
+
+.abstract-4 {
+  position: absolute;
+  right: calc( (154.26/1440) * 100% );
+  top: 517px;
+}
+
+.image-design {
+  position: absolute;
+  right: calc( (279/1440) * 100% );
+  top: 391px;
+}
+
+.we-work-passion {
+  min-height: 720px;
+  background-image: url("./assets/images/image-11.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.we-work-passion > div {
+  position: absolute;
+  width: 100%;
+  top: 484px;
+  font-family: "Lexend Deca";
+  font-size: 60px;
+  line-height: 66px;
+  text-align: center;
+  letter-spacing: -2.25px;
+}
+
+.we-work-passion > p {
+  margin: 0;
+  max-width: 393px;
+  position: absolute;
+  left: calc( (100vw - 393px) / 2 );
+  top: 566px;
+  font-family: "DM Sans";
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  letter-spacing: -0.4px;
+}
+
+.make-you-best-wrapper {
+  background-color: #C2B8CC;
+}
+
+.make-you-best {
+  max-width: 1440px;
+  margin: 0 auto;
+  position: relative;
+  min-height: 983px;
+}
+
+.abstract-5 {
+  position: absolute;
+  left: calc( (273/1440) * 100% );
+  top: 437.58px;
+}
+
+.vector-6 {
+  position: absolute;
+  left: calc( (720/1440) * 100% );
+  top: 290px;
+}
+
+.image-12 {
+  position: absolute;
+  left: calc( (100% - 458px) / 2 );
+  top: 253px;
+}
+
+.image-13 {
+  position: absolute;
+  left: calc( (294/1440) * 100% );
+  top: 604px;
+}
+
+.best-self {
+  width: 273px;
+  position: absolute;
+  left: calc( (885/1440) * 100% );
+  top: 509px;
+  font-family: "Lexend Deca";
+  font-size: 40px;
+  line-height: 48px;
+  letter-spacing: -1.5px;
+}
+
+.image-14 {
+  position: absolute;
+  left: calc( (863/1440) * 100% );
+  top: 151px;
+}
+
+footer {
+  background-color: #DFCCC2;
+  padding: calc( (100/1440) * 100% ) calc( (115/1440) * 100% );
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+footer .social-nav {
+  justify-self: start;
+  display: grid;
+  grid-template-rows: 16px 16px;
+  grid-row-gap: 40px;
+  grid-template-columns: max-content max-content;
+  grid-column-gap: 75px;
+  margin-top: 16px;
+}
+
+footer .social-nav div {
+  font-family: "DM Sans";
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: -0.4px;
+}
+
+footer > p {
+  justify-self: end;
+  text-align: right;
+  font-family: "Lexend Deca";
+  font-size: 30px;
+  line-height: 37px;
+  letter-spacing: -1.125px;
+  padding-bottom: 1rem;
+  margin: 0;
+}
+
+footer > p > a.apply-now {
+  display: block;
+  padding-top: 1rem;
+  color: #F95454;
+  text-decoration-color: #F95454;
+  text-decoration-thickness: 2px;
+  text-underline-offset: 9px;
+}
