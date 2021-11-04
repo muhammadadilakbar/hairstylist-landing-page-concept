@@ -2,7 +2,7 @@
 
 HTML/CSS implementation of a free Figma design.
 
-See my development of this design here: https://muhammadadilakbar.github.io/hairstylist-landing-page-concept/
+See it live at: https://muhammadadilakbar.github.io/hairstylist-landing-page-concept/
 
 See the Figma design here: https://www.figma.com/file/ywXEcEX4uuXvczhNHJ1lKW/Hairstylist-Landing-Page-Concept-(Community)
 
